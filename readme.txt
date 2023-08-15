@@ -2,7 +2,7 @@
 Contributors: clickshipfc
 Tags: woocommerce, shipping, custom shipping, weight based shipping, woocommerce shipping, shipping methods, advanced shipping
 Requires at least: 5.8
-Tested up to: 6.0
+Tested up to: 6.2
 Requires PHP: 7.2
 Stable tag: 1.0.0
 License: GNU General Public License v3.0
