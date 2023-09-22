@@ -41,6 +41,34 @@ if ( ! class_exists( 'WC_Clickship_Shipping_Rates_Method' ) ) {
 	 */
 	protected $filters;
 
+	
+	/**
+     * The URL associated with the ClickShip service.
+     *
+     * @since    1.0.0
+     * @access   protected
+     * @var      string   $clickship_url    The URL for the ClickShip service.
+     */
+	protected $clickship_url;
+	
+	/**
+     * The identifier for the specific marketplace integrated with the plugin.
+     *
+     * @since    1.0.0
+     * @access   protected
+     * @var      string   $marketplace_id    The ID or code for the integrated marketplace.
+     */
+	protected $marketplace_id;
+	
+	/**
+     * Flag to enable or disable the ClickShip integration within the plugin.
+     *
+     * @since    1.0.0
+     * @access   protected
+     * @var      bool     $clickship_enable    Flag to enable or disable ClickShip functionality.
+     */
+	protected $clickship_enable;
+
 	/**
 	 * Initialize the collections used to maintain the actions and filters.
 	 *
